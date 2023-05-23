@@ -1,0 +1,53 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #c8efff;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  #start {
+    height: 90vh;
+    color: #5cf8de;
+    position: relative;
+  }
+  
+  #title {
+    font-size: 6rem;
+    perspective: 600px;
+  }
+  
+  
+  #title > p {
+    line-height: 0.75;
+    text-align: center;
+    color: #9fccaaf9;
+  }
+  .hidden{
+    display: none !important;
+    
+  }
+  
+  #cards div {
+    border: 1px solid black;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+  }
+  .start {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .end {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #start-button{
+    background-color: lightpink;
+  }
